@@ -1,4 +1,4 @@
-(defproject yieldbot/marceline "0.2.2-SNAPSHOT"
+(defproject io.github.emidln/marceline "0.2.2-bja"
   :description "A Clojure DSL for Storm/Trident."
   :url "https://github.com/yieldbot/marceline"
   :license {:name "Eclipse Public License"
