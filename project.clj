@@ -1,4 +1,4 @@
-(defproject io.github.emidln/marceline "0.2.2-bja"
+(defproject io.github.emidln/marceline "0.2.2-bja2"
   :description "A Clojure DSL for Storm/Trident."
   :url "https://github.com/yieldbot/marceline"
   :license {:name "Eclipse Public License"
@@ -8,5 +8,5 @@
   :java-source-paths ["src/jvm"]
   :javac-options ["-source" "1.6" "-target" "1.6"]
   :profiles {:provided {:dependencies
-                        [[org.apache.storm/storm-core "0.9.3"]
-                         [org.clojure/clojure "1.5.1"]]}})
+                        [[org.apache.storm/storm-core "0.11.0-SNAPSHOT"]
+                         [org.clojure/clojure "1.6.0"]]}})
