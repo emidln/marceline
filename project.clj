@@ -6,7 +6,7 @@
   :aot :all
   :source-paths ["src/clj"]
   :java-source-paths ["src/jvm"]
-  :javac-options ["-source" "1.8" "-target" "1.8"]
+  :javac-options ["-source" "1.6" "-target" "1.6"]
   :profiles {:provided {:dependencies
-                        [[org.apache.storm/storm-core "0.11.0-SNAPSHOT"]
-                         [org.clojure/clojure "1.6.0"]]}})
+                        [[org.apache.storm/storm-core "0.9.4.1"]
+                         [org.clojure/clojure "1.5.1"]]}})
